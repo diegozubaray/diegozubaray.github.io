@@ -287,6 +287,9 @@ h6 {
     #hero {
         background-attachment: fixed;
     }
+    #foto {
+        border-radius: 2.5%;
+    }
 }
 
 @media (max-width: 768px) {

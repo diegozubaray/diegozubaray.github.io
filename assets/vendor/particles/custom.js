@@ -1,13 +1,19 @@
 particlesJS("bg", {
     "particles": {
         "number": {
-            "value": 400,
-            "density": { "enable": true, "value_area": 800 }
+            "value": 90,
+            "density": {
+                "enable": true,
+                "value_area": 315
+            }
         },
-        "color": { "value": "#ff002d" },
+        "color": { "value": "#fff" },
         "shape": {
             "type": "circle",
-            "stroke": { "width": 0, "color": "#000000" },
+            "stroke": {
+                "width": 0,
+                "color": "#000000"
+            },
             "polygon": { "nb_sides": 5 },
             "image": {
                 "src": "img/github.svg",
@@ -44,7 +50,7 @@ particlesJS("bg", {
         },
         "move": {
             "enable": true,
-            "speed": 6,
+            "speed": 1.5,
             "direction": "none",
             "random": false,
             "straight": false,
